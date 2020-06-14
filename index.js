@@ -33,8 +33,9 @@ console.log("Updating map with rt data");
         })
 
 }
-let interval = 2000;
-setInterval(updateMap, interval)
+updateMap();
+// let interval = 2000;
+// setInterval(updateMap, interval)
 
 
 
